@@ -1,0 +1,175 @@
+
+/* Sections:
+- title
+- feature
+- testimonials
+- press
+- pricing
+- call to action*/
+
+/* better keep html-elments scarse, maybe only font-family*/
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* colored vs white-sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+#title .container-fluid {  /*targetting child selector (container-fluid) within parent selector (title)*/
+  padding: 0 7% 7%;
+}
+
+.main-header {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.title-img {
+  width: 300px;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 15%;
+}
+
+/* feature section */
+
+#features {
+  position: relative;
+  padding-top: 5%;
+}
+
+.feature-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* up to this max-width (condition), title-imgshould be styled as hereunder:*/
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ef8172; /*overrides #ff4c68 in colored-section*/
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.testimonial-img {
+  width: 12%;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+#press {
+  background-color: #ef8172; /*overrides #ff4c68 in colored-section*/
+}
+
+.press-logo {
+  width: 15%;
+  margin: 25px 20px 40px;
+}
+
+.price-header{
+  font-weight: bold;
+}
+
+.pricing-col {
+  padding: 3% 3%;
+}
+
+.pricing-card {
+  height: 310px;
+}
+
+.price-text {
+  font-weight: bold;
+}
+
+.buttons {
+  margin: 5% 15%;
+}
+
+#prio-listing {
+  font-weight: 900;
+  font-style: italic;
+}
+
+.cta-header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#footer {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.multiple-icons {
+  margin: 0 1% 1% 1%;
+}
+
+.multiple-icons:hover {
+  color: #ff4c68;
+}
