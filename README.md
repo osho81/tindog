@@ -1,14 +1,14 @@
 ## Tindog 
 
-### Descirption 
+#### Descirption 
 A fictive "tinder" dating site for dogs. Simulating a dating site. 
 
-### Purpose & Motivation
+#### Purpose & Motivation
 This was an assignment in the programme (that I participated in): 
 "The Complete 2021 Web Development Bootcamp", given by App Brewery, Angela Yu (via Udemy.com).
 
-Main motivation: Improving boostrap skills. 
+Motivation: Improving boostrap skills. 
 
-### Technologies used
+#### Technologies used
 - HTML/CSS
 - Bootstrap library
