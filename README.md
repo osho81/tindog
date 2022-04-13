@@ -1,6 +1,6 @@
 ## Tindog 
 
-#### Descirption 
+#### Description 
 A fictive "tinder" dating site for dogs. Simulating a dating site. 
 
 #### Purpose & Motivation
