@@ -1,10 +1,10 @@
 ## Tindog 
 
 #### Description 
-A fictive "tinder" dating site for dogs. Simulating a dating site. 
+A fictive "tinder" dating site for dogs, i.e. simulating a dating site. 
 
 #### Purpose & Motivation
-This was an assignment in the programme (that I participated in): 
+This was an assignment in the completed programme: 
 "The Complete 2021 Web Development Bootcamp", given by App Brewery, Angela Yu (via Udemy.com).
 
 Motivation: Improving boostrap skills. 
